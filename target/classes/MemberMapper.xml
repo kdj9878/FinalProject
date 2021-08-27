@@ -196,6 +196,16 @@ select l_video from lesson where l_no = #{l_no}
 <delete id="deleteTempInfo" parameterType="String">
 delete from temp_member where t_m_id = #{t_m_id}
 </delete>
+
+<delete id="deleteTempInfoByEmail" parameterType="com.project.jk.common.TempMemberInfo">
+delete from temp_member where t_m_email = #{t_m_email}
+</delete>
+
+
+
+
+
+
 <select id="getOrderCount" parameterType="com.project.jk.common.Member" resultType="_int">
 select count(*) from taken_p_order where p2_o_id = #{m_id}
 </select>

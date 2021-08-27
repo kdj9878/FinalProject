@@ -98,7 +98,7 @@ delete from member where m_id = 'kdj1234';
 
 select * from member;
 delete from member;
-delete from member where m_phone = '01032084487';
+delete from member where m_email = 'kdj9878@naver.com';
 drop table member cascade constraint purge;
 
 drop sequence member_seq;
@@ -116,7 +116,7 @@ t_m_key varchar2(21 char)not null
 delete from TEMP_MEMBER where t_m_id = '2'
 
 select * from temp_member;
-delete from temp_member where t_m_email = 'kdj9878@gmail.com';
+delete from temp_member where t_m_email = 'kdj9878@naver.com';
 delete from TEMP_MEMBER;
 drop table temp_member cascade constraint purge;
 update temp_member set t_m_key = 'y' where t_m_id = 'kdj9878';

@@ -337,7 +337,8 @@ public class MemberDAO {
 	
 	//멤버들 중에 해당하는 이메일을 사용하는 사람이 있는지 체크하는 부분
 	public boolean emailCheck(TempMemberInfo tmi) {
-		// 이메일을 사용하는 계정이 있으면 1 없으면 0로 나옴
+		// 이메일을 사용하는 계정이 있으면 1 없으면 0로 나오고
+		//이메일 인증 테이블에 해당 아이디의 이메일로 인증되어 있으면 false를 리턴
 		if (ss.getMapper(MemberMapper.class).checkEmail(tmi) == 1) {
 			return false;
 		} else {

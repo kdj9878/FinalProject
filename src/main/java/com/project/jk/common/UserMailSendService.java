@@ -64,6 +64,8 @@ public class UserMailSendService {
       tmi.setT_m_email(t_m_email);
       tmi.setT_m_key(t_m_key);
       
+      
+      ss.getMapper(MemberMapper.class).deleteTempInfoByEmail(tmi);
       MemberMapper mm = ss.getMapper(MemberMapper.class);
       mm.insertKey(tmi);
       // GetKey 라는 인터페이스가 있나보네

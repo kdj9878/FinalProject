@@ -102,6 +102,12 @@ public interface MemberMapper {
 	public String compareEmailKey(String m_email);
 
 	public void deleteOldPhoneInfo(Member member);
+	
+	
+	
+	
+	//인증을 할 때 입력한 이메일로 이메일 인증 테이블의 정보를 삭제
+	public void deleteTempInfoByEmail(TempMemberInfo tmi);
 
 
 }

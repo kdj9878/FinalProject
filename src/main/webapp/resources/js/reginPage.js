@@ -138,32 +138,38 @@ $(document).ready(function() {
       let userEmail = $('#m_email').val();
       let o = confirm("이메일 인증 완료시 정상적인 이용이 가능합니다.");
       if (o) {
-      $.ajax({
-         url: "sendEmail.do",
-         method: "get",
-         data: {
-         t_m_id: userId,
-         t_m_email: userEmail
-         },
-         success: function(data) {
-         //data가 boolean타입으로 리턴됨
-         if(data){
-            //메일이 정상적으로 보내졌을 경우 뜨는 알람
-         emailCheckValue = "true";
-         emailSpan.innerText = "이메일 인증 완료 시 가입이 가능합니다."
-            alert("이메일을 확인해 주세요");
-         }
-         else{
-            //false로 리턴되었을 때 뜨는 알람
-         emailCheckValue = "false";
-            alert("이미 사용중인 이메일 입니다.");
-         
-         }
-      }
-         })
-         .fail(function() {
-         alert("아이디를 확인해주세요");
-         })
+		if(userId == ""){
+			alert("아이디를 먼저 입력해주세요");
+			return false;
+		}
+		else{
+	      $.ajax({
+	         url: "sendEmail.do",
+	         method: "get",
+	         data: {
+	         t_m_id: userId,
+	         t_m_email: userEmail
+	         },
+	         success: function(data) {
+	         //data가 boolean타입으로 리턴됨
+	         if(data){
+	            //메일이 정상적으로 보내졌을 경우 뜨는 알람
+	         emailCheckValue = "true";
+	         emailSpan.innerText = "이메일 인증 완료 시 가입이 가능합니다."
+	            alert("이메일을 확인해 주세요");
+	         }
+	         else{
+	            //false로 리턴되었을 때 뜨는 알람
+	         emailCheckValue = "false";
+	            alert("사용중인 이메일입니다.");
+	         
+	         }
+	      }
+	         })
+	         .fail(function() {
+	         alert("아이디를 확인해주세요");
+	         })			
+		}
       }
    else{
       return false;
@@ -192,7 +198,8 @@ $(document).ready(function() {
                if (input_id) {
                   checkIdValue = "true";
                idSpan.innerText= "중복 체크 완료";
-                  alert("사용할 수 있는 아이디입니다.")
+                  alert("사용할 수 있는 아이디입니다.");
+				$('#m_id').attr('readonly', true);
                }
                else {
                   checkIdValue = "false";
