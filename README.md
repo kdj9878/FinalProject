@@ -56,4 +56,39 @@
  <hr>
     <h4> Exerd 테이블 명세 </h4>
 <img src="https://github.com/kdj9878/FinalProject/blob/master/ERD.png" alt="erd.png" >
-
+    <hr>
+    <h4> 구동 화면 </h4>
+    <ul>
+      <li> 메인 화면 </li>
+      <img src="https://github.com/kdj9878/FinalProject/blob/master/%EC%B5%9C%EC%A2%85%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8(%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%AA%A8%EC%9D%8C)/%EB%A9%94%EC%9D%B8%ED%99%94%EB%A9%B4.png" alt="메인화면"> <br>
+      <li> 로그인 화면 </li>
+      <img src="https://github.com/kdj9878/FinalProject/blob/master/%EC%B5%9C%EC%A2%85%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8(%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%AA%A8%EC%9D%8C)/%EB%A1%9C%EA%B7%B8%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80.png" alt="로그인화면"> <br>
+      <li> 회원가입 </li>
+      <img src="https://github.com/kdj9878/FinalProject/blob/master/%EC%B5%9C%EC%A2%85%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8(%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%AA%A8%EC%9D%8C)/%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85.png" alt="회원가입"> <br>
+      <li> 장바구니 및 마이페이지 </li>
+      <img src="https://github.com/kdj9878/FinalProject/blob/master/%EC%B5%9C%EC%A2%85%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8(%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%AA%A8%EC%9D%8C)/%EC%9E%A5%EB%B0%94%EA%B5%AC%EB%8B%88%EB%B0%8F%EB%A7%88%EC%9D%B4%ED%8E%98%EC%9D%B4%EC%A7%80.png" alt="장바구니및마이페이지"> <br>
+      <li> 메인 페이지 검색 </li>
+      <img src="https://github.com/kdj9878/FinalProject/blob/master/%EC%B5%9C%EC%A2%85%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8(%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%AA%A8%EC%9D%8C)/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80%EA%B2%80%EC%83%89.png" alt="메인페이지검색"> <br>
+      <li> 제품 구매 </li>
+      <img src="https://github.com/kdj9878/FinalProject/blob/master/%EC%B5%9C%EC%A2%85%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8(%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%AA%A8%EC%9D%8C)/%EC%A0%9C%ED%92%88%EA%B5%AC%EB%A7%A4.png" alt="제품구매"> <br>
+      <li> 주문 정보 확인 </li>
+     <img src="https://github.com/kdj9878/FinalProject/blob/master/%EC%B5%9C%EC%A2%85%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8(%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%AA%A8%EC%9D%8C)/%EC%A3%BC%EB%AC%B8%EC%A0%95%EB%B3%B4%ED%99%95%EC%9D%B8.png" alt="주문정보확인"> <br>
+      <li> 동영상 강좌 </li>
+      <img src="https://github.com/kdj9878/FinalProject/blob/master/%EC%B5%9C%EC%A2%85%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8(%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%AA%A8%EC%9D%8C)/%EB%8F%99%EC%98%81%EC%83%81%EA%B0%95%EC%A2%8C.png" alt="동영상강좌"> <br>
+      <li> 동영상 시청 </li>
+      <img src="https://github.com/kdj9878/FinalProject/blob/master/%EC%B5%9C%EC%A2%85%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8(%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%AA%A8%EC%9D%8C)/%EB%8F%99%EC%98%81%EC%83%81%EC%8B%9C%EC%B2%AD.png" alt="동영상시청"> <br>
+      <li> 판매자 신청 </li>
+      <img src="https://github.com/kdj9878/FinalProject/blob/master/%EC%B5%9C%EC%A2%85%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8(%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%AA%A8%EC%9D%8C)/%ED%8C%90%EB%A7%A4%EC%9E%90%EC%8B%A0%EC%B2%AD.png" alt="판매자신청">  <br>
+      <li> 상점 관리 </li>
+      <img src="https://github.com/kdj9878/FinalProject/blob/master/%EC%B5%9C%EC%A2%85%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8(%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%AA%A8%EC%9D%8C)/%EC%83%81%EC%A0%90%EA%B4%80%EB%A6%AC.png" alt="상점관리"> <br>
+      <li> 커뮤니티 </li>
+      <img src="https://github.com/kdj9878/FinalProject/blob/master/%EC%B5%9C%EC%A2%85%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8(%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%AA%A8%EC%9D%8C)/%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0.png" alt="커뮤니티">  <br>
+      <li> 커뮤니티 댓글 </li>
+      <img src="https://github.com/kdj9878/FinalProject/blob/master/%EC%B5%9C%EC%A2%85%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8(%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%AA%A8%EC%9D%8C)/%EC%BB%A4%EB%AE%A4%EB%8B%88%ED%8B%B0%EB%8C%93%EA%B8%80.png" alt="커뮤니티댓글">  <br>
+      <li> 메세지 기능 </li>
+      <img src="https://github.com/kdj9878/FinalProject/blob/master/%EC%B5%9C%EC%A2%85%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8(%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%AA%A8%EC%9D%8C)/%EB%A9%94%EC%84%B8%EC%A7%80%EA%B8%B0%EB%8A%A5.png" alt="메세지기능">  <br>
+      <li> 불편 사항 신고 </li>
+      <img src="https://github.com/kdj9878/FinalProject/blob/master/%EC%B5%9C%EC%A2%85%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8(%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%AA%A8%EC%9D%8C)/%EB%B6%88%ED%8E%B8%EC%82%AC%ED%95%AD%EC%8B%A0%EA%B3%A0.png" alt="불편사항신고">  <br>
+      <li> 불편 사항 접수 </li>
+      <img src="https://github.com/kdj9878/FinalProject/blob/master/%EC%B5%9C%EC%A2%85%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8(%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%AA%A8%EC%9D%8C)/%EB%B6%88%ED%8E%B8%EC%82%AC%ED%95%AD%EC%A0%91%EC%88%98.png" alt="불편사항신고">  <br>
+    </ul>
