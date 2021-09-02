@@ -55,4 +55,5 @@
 </div>
  <hr>
     <h4> Exerd 테이블 명세 </h4>
-![Alt Text](https://github.com/kdj9878/FinalProject/blob/master/ERD.png)
+<img src="https://github.com/kdj9878/FinalProject/blob/master/ERD.png" alt="erd.png" >
+
