@@ -542,6 +542,12 @@ public class HomeController {
 		}
 
 	}
+	
+	@RequestMapping(value = "common/kakaoPopup.do")
+	public String kakaoPopup(HttpServletRequest request) {
+		
+		return "memberPage/kakaoPopup";
+	}
 
 	// 서비스 로그아웃이든 계정까지 로그아웃이든 이쪽으로 들어옴
 	@RequestMapping(value = "/common/kakao.logout")
