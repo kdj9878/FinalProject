@@ -14,6 +14,7 @@ import java.util.HashMap;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
+import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -26,6 +27,9 @@ public class KakaoService {
 	
 	@Autowired
 	private KakaoMember kakaoMember;
+	
+	@Autowired
+	private SqlSession ss;
 	
 	public String getAccessToken (String authorize_code) {
 	String access_Token = "";
@@ -68,7 +72,7 @@ public class KakaoService {
         //    Gson 라이브러리에 포함된 클래스로 JSON파싱 객체 생성
         JsonParser parser = new JsonParser();
         JsonElement element = parser.parse(result);
-
+        
         access_Token = element.getAsJsonObject().get("access_token").getAsString();
         refresh_Token = element.getAsJsonObject().get("refresh_token").getAsString();
 
@@ -124,6 +128,14 @@ public class KakaoService {
             String profile_image = profile.getAsJsonObject().get("profile_image_url").getAsString();
             String email = kakao_account.getAsJsonObject().get("email").getAsString();
 
+            //해당 아이디의 카카오 회원이 홈페이지에 가입되어 있는지 확인
+            if(ss.getMapper(MemberMapper.class).compareKakaoId(kakaoMemberId)==1) {
+            	//result값이 1이면 존재한다는 의미
+            	request.setAttribute("kakaoMmeber_Exist", 1);
+            }
+            else {
+            	request.setAttribute("kakaoMmeber_Exist", 2);
+            }
             userInfo.put("kakaoMemberId", kakaoMemberId);
             userInfo.put("profile_nickname", nickname);
             userInfo.put("account_email", email);

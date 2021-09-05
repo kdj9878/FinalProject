@@ -7,7 +7,7 @@ public interface MemberMapper {
 
    public Member loginCheck(Member member);
 
-   public List<Member> checkId_select(Member m);
+   public List<Member> checkId_select(Member member);
 
    public int insertPhoneKey(String Key);
 
@@ -108,6 +108,9 @@ public interface MemberMapper {
 	
 	//인증을 할 때 입력한 이메일로 이메일 인증 테이블의 정보를 삭제
 	public void deleteTempInfoByEmail(TempMemberInfo tmi);
+
+	//해당 카카오 회원의 아아디가 있으면 1을 반환하게 됨	
+	public int compareKakaoId(String kakaoMemberId);
 
 
 }
