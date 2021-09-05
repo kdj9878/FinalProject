@@ -23,7 +23,14 @@ margin: 15px;
 		url('${pageContext.request.contextPath}/resources/img/etcAll2.jpg');
 }
 </style>
+<script type="text/javascript">
+function kakaoPopup(kakaoMember){
+	if(kakaoMember == 2){
+	window.open("kakaoPopup.do", "kakaoPopup", "width=500, height=400")
+	}
+}
+</script>
 </head>
-<body>
+<body onload="kakaoPopup(${kakaoMmeber_Exist})">
 </body>
 </html>
