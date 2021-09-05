@@ -2,6 +2,7 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.project.jk.common.MemberMapper">
 
+<!-- 하나의 객체 형태로 나옴 -->
 <select id="loginCheck" parameterType="com.project.jk.common.Member" resultType="com.project.jk.common.Member">
 select * from member where m_id = #{m_id}
 </select>
@@ -159,7 +160,7 @@ values(taken_p_order_seq.nextval, #{p2_s_name}, #{p2_o_id}, #{p2_o_no}, #{p2_nam
 update product set p_stock = p_stock - #{p2_p_quantidey} where p_no = #{p2_o_no}
 </update>
 <delete id="deleteCart" parameterType="com.project.jk.common.ConfirmOrder">
-delete from p_order where o_no = #{p2_o_no}
+delete from p_order where o_o_nop = #{o_o_nop}
 </delete>
 
 <select id="getCompletedOrder" parameterType="com.project.jk.common.Member" resultType="com.project.jk.common.ConfirmOrder">
