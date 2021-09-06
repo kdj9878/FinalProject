@@ -16,6 +16,7 @@
 <div>
   <span> 일반인의 개인 상점 오픈 및 판매 홈페이지 </span>
 </div>
+
 <div>
   <header> <h4> 목적</h4> </header>
   <ul>
@@ -24,10 +25,12 @@
     <li> Story 커뮤니티 및 메세지 기능을 통해서 회원들간의 활발한 소통을 추구 </li>
   </ul>
 </div>
+
 <div>
-  <header> 구현 목표 </header>
+  <br>
+  <header> <h4>구현 목표<h4> </header>
   <ul>
-    <li> 일반 회원 </li> <br>
+    <li> 일반 회원 </li> 
     <div>
       <span> * 기본적인 장바구니 기능 및 제품 구매 가능 </span> <br>
       <span> * Story 메뉴의 커뮤니티 게시판에서 회원들간의 원할한 소통 가능 </span> <br>
@@ -36,7 +39,8 @@
     </div>
   </ul>
   <ul>
-    <li> 판매자 회원 </li> <br>
+  <br>
+    <li> 판매자 회원 </li> 
     <div>
       <span> * 판매자 신청을 통해 관리자로부터 승인을 받을 시 제품 등록 가능 </span> <br>
       <span> * 상점 관리를 통해 본인이 판매 중인 제품 및 수업 관리 가능 </spam>
@@ -44,7 +48,8 @@
     </div>
   </ul>
   <ul>
-    <li> 관리자 </li> <br>
+  <br>
+    <li> 관리자 </li> 
     <div>
       <span> * 회원 관리 시 아이디, 이름, 이메일 등을 구분하여 검색 가능 </span> <br>
       <span> * 상점 관리 시 판매자 신청을 한 회원의 정보를 확인 할 수 있고 수락 시 판매자 계정으로 전환 </span> <br>
@@ -53,6 +58,7 @@
     </div>
   <ul>
 </div>
+
  <hr>
     <h4> Exerd 테이블 명세 </h4>
 <img src="https://github.com/kdj9878/FinalProject/blob/master/ERD.png" alt="erd.png" >
